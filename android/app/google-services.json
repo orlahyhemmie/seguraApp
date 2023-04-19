@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417557528632",
+    "project_id": "phone-firebase-89c86",
+    "storage_bucket": "phone-firebase-89c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417557528632:android:d27ad9e2abd12a8a98a6cd",
+        "android_client_info": {
+          "package_name": "com.segurapay.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417557528632-dudfavkfi50tj2eqm4g436ddn4jdsil0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhfM6Ksx-V_3h1RWtgqQAMiYi60Qp7-G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417557528632-dudfavkfi50tj2eqm4g436ddn4jdsil0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

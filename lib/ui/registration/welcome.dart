@@ -47,13 +47,13 @@ class WelcomePage extends StatelessWidget {
               height: 15,
             ),
             Padding(
-              padding: EdgeInsets.all(13.0),
+              padding: const EdgeInsets.all(13.0),
               child: LargeButton(
                 onTap: () {
                   Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => SignUp(),
+                        builder: (context) => const SignUp(),
                       ));
                 },
                 text: 'Get started',

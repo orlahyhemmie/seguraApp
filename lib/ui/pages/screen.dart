@@ -25,7 +25,7 @@ class FirstScreen extends StatelessWidget {
               Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => SignUp(),
+                    builder: (context) => const SignUp(),
                   ));
             },
           ),
@@ -94,7 +94,7 @@ class FirstScreen extends StatelessWidget {
                           Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => WelcomePage(),
+                                builder: (context) => const WelcomePage(),
                               ));
                         },
                         text: 'Next',

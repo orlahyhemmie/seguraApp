@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:segurapay/ui/pages/screen.dart';
-import 'package:segurapay/ui/pages/splashscreen.dart';
-import 'ui/registration/reg.dart';
-import 'ui/ui.dart';
+import 'package:segurapay/ui/pages/pages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: //Phone()
-          const SplashScreen(),
+          const NotificationPage(),
     );
   }
 }

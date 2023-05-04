@@ -85,7 +85,7 @@ class _SignUpState extends State<SignUp> {
                   Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => Email(),
+                        builder: (context) => const Email(),
                       ));
                 },
                 child: const Text(
@@ -127,7 +127,7 @@ class _SignUpState extends State<SignUp> {
                         color: Colors.white12,
                       ),
                       borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
+                      image: const DecorationImage(
                         image: AssetImage('image/faceboo.png'),
                       ),
                     ),
@@ -170,7 +170,7 @@ class _SignUpState extends State<SignUp> {
                         color: Colors.white12,
                       ),
                       borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
+                      image: const DecorationImage(
                         image: AssetImage('image/google.png'),
                       ),
                     ),

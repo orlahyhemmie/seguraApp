@@ -46,13 +46,13 @@ class _MyOtpState extends State<MyOtp> {
           children: [
             Row(
               children: [
-                Text(
+                const Text(
                   'Enter the code sent to ',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
                 GestureDetector(
                   onTap: () {},
-                  child: Text(
+                  child: const Text(
                     '(480) 555 - 0103',
                     style: TextStyle(color: Colors.orange),
                   ),

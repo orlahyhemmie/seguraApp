@@ -62,7 +62,7 @@ class _EmailState extends State<Email> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => Password(),
+                      builder: (context) => const Password(),
                     ));
               },
               text: 'Continue',

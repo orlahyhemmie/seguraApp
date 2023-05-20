@@ -80,7 +80,7 @@ class NotificationPage extends StatelessWidget {
                                 decoration: BoxDecoration(
                                     color: Colors.green,
                                     borderRadius: BorderRadius.circular(10)),
-                                child: const IconContainer(
+                                child: IconContainer(
                                   icon: Icons.settings,
                                 ),
                               ),
@@ -153,7 +153,7 @@ class NotificationPage extends StatelessWidget {
                       decoration: BoxDecoration(
                           color: Colors.orange,
                           borderRadius: BorderRadius.circular(10)),
-                      child: const IconContainer(
+                      child: IconContainer(
                         icon: Icons.settings,
                       ),
                     ),
@@ -276,7 +276,7 @@ class NotificationPage extends StatelessWidget {
                       decoration: BoxDecoration(
                           color: Colors.orange.shade100,
                           borderRadius: BorderRadius.circular(10)),
-                      child: const IconContainer(
+                      child: IconContainer(
                         icon: Icons.settings,
                       ),
                     ),
@@ -334,7 +334,7 @@ class NotificationPage extends StatelessWidget {
                       decoration: BoxDecoration(
                           color: Colors.green.shade700,
                           borderRadius: BorderRadius.circular(10)),
-                      child: const IconContainer(
+                      child: IconContainer(
                         icon: Icons.wallet,
                       ),
                     ),

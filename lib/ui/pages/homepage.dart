@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Image(
                       image: AssetImage('image/one.png'),
                       width: 40,
@@ -153,7 +153,7 @@ class HomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Column(
-                    children: const [
+                    children: [
                       IconContainer(
                         icon: Icons.electric_bolt,
                       ),
@@ -164,7 +164,7 @@ class HomePage extends StatelessWidget {
                     width: 10,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       IconContainer(
                         icon: Icons.wifi,
                       ),
@@ -175,7 +175,7 @@ class HomePage extends StatelessWidget {
                     width: 10,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       IconContainer(
                         icon: Icons.receipt,
                       ),
@@ -186,7 +186,7 @@ class HomePage extends StatelessWidget {
                     width: 10,
                   ),
                   Column(
-                    children: const [
+                    children: [
                       IconContainer(
                         icon: Icons.luggage,
                       ),
@@ -204,7 +204,7 @@ class HomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Column(
-                      children: const [
+                      children: [
                         IconContainer(
                           icon: Icons.shopping_cart,
                         ),
@@ -215,7 +215,7 @@ class HomePage extends StatelessWidget {
                       width: 10,
                     ),
                     Column(
-                      children: const [
+                      children: [
                         IconContainer(
                           icon: Icons.phone_android,
                         ),
@@ -227,7 +227,7 @@ class HomePage extends StatelessWidget {
                       width: 10,
                     ),
                     Column(
-                      children: const [
+                      children: [
                         IconContainer(
                           icon: Icons.receipt,
                         ),
@@ -238,7 +238,7 @@ class HomePage extends StatelessWidget {
                       width: 10,
                     ),
                     Column(
-                      children: const [
+                      children: [
                         IconContainer(
                           icon: Icons.menu,
                         ),

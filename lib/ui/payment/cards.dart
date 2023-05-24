@@ -30,7 +30,7 @@ class Cards extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
             ),
             child: IconButton(
-              icon: Icon(
+              icon: const Icon(
                 Icons.question_mark,
                 size: 15,
               ),
@@ -42,7 +42,7 @@ class Cards extends StatelessWidget {
       body: Column(
         children: [
           Padding(
-            padding: EdgeInsets.all(30),
+            padding: const EdgeInsets.all(30),
             child: Center(
               child: Column(
                 children: [
@@ -164,10 +164,10 @@ class Cards extends StatelessWidget {
                           ),
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.black12),
-                      child: Row(
+                      child: const Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          const Padding(
+                          Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Image(
                               width: 30,
@@ -177,13 +177,13 @@ class Cards extends StatelessWidget {
                               ),
                             ),
                           ),
-                          const SizedBox(
+                          SizedBox(
                             width: 1,
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(10.0),
+                            padding: EdgeInsets.all(10.0),
                             child: Column(
-                              children: const [
+                              children: [
                                 Text(
                                   'Wally Virtual Card',
                                   style: TextStyle(
@@ -201,10 +201,10 @@ class Cards extends StatelessWidget {
                               ],
                             ),
                           ),
-                          const SizedBox(
+                          SizedBox(
                             width: 180,
                           ),
-                          const Icon(Icons.arrow_drop_down)
+                          Icon(Icons.arrow_drop_down)
                         ],
                       ),
                     ),

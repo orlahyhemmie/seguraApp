@@ -8,7 +8,7 @@ class IconContainer extends StatelessWidget {
   final bool? isBorder;
   final Text? text;
 
-  const IconContainer({
+  IconContainer({
     super.key,
     this.backgroundColor,
     this.onTap,
@@ -24,13 +24,13 @@ class IconContainer extends StatelessWidget {
       onTap: onTap,
       child: Container(
         height: 40,
-        width: 42,
+        width: 40,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           border: Border.all(color: Colors.white24),
         ),
         child: Center(
-          child: Icon(icon),
+          child: Icon(icon, color: iconColor, size: 15),
         ),
       ),
     );

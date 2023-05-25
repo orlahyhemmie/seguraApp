@@ -26,12 +26,13 @@ class LargeButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(15),
             border: Border.all(
               width: 16,
-              color: Colors.green,
+              color: Colors.transparent,
             )),
         child: Center(
           child: Text(
             text,
-            style: TextStyle(fontSize: 15, color: textColor),
+            style: TextStyle(
+                fontSize: 15, color: textColor, fontWeight: FontWeight.w500),
           ),
         ),
       ),

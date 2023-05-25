@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:segurapay/ui/pages/pages.dart';
+import 'package:segurapay/ui/payment/wally.dart';
 import 'ui/payment/destination.dart';
 import 'ui/payment/payment.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: //Phone()
-          const BankDestination(),
+          const Wallet(),
     );
   }
 }

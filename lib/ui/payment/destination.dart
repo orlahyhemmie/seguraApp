@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:segurapay/ui/payment/account.dart';
+import 'package:segurapay/ui/payment/payment.dart';
 import 'package:segurapay/ui/widgets/iconborder.dart';
 
 class BankDestination extends StatefulWidget {
@@ -73,79 +75,93 @@ class _BankDestinationState extends State<BankDestination> {
                   const SizedBox(
                     height: 30,
                   ),
-                  Container(
-                    height: 55,
-                    width: 355,
-                    decoration: BoxDecoration(
-                        border: Border.all(color: Colors.transparent),
-                        borderRadius: BorderRadius.circular(15),
-                        color: Colors.black12),
-                    child: const Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Icon(
-                            Icons.account_balance,
-                            color: Colors.orange,
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Text(
-                            'Bank',
-                            style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w600),
-                          ),
-                          SizedBox(
-                            width: 230,
-                          ),
-                          Expanded(
-                            child: Icon(
-                              Icons.arrow_forward_ios,
-                              size: 13,
-                              color: Colors.black38,
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => BankAccount()));
+                    },
+                    child: Container(
+                      height: 55,
+                      width: 355,
+                      decoration: BoxDecoration(
+                          border: Border.all(color: Colors.transparent),
+                          borderRadius: BorderRadius.circular(15),
+                          color: Colors.black12),
+                      child: const Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.account_balance,
+                              color: Colors.orange,
                             ),
-                          )
-                        ],
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              'Bank',
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w600),
+                            ),
+                            SizedBox(
+                              width: 230,
+                            ),
+                            Expanded(
+                              child: Icon(
+                                Icons.arrow_forward_ios,
+                                size: 13,
+                                color: Colors.black38,
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                     ),
                   ),
                   const SizedBox(
                     height: 10,
                   ),
-                  Container(
-                    height: 55,
-                    width: 355,
-                    decoration: BoxDecoration(
-                        border: Border.all(color: Colors.transparent),
-                        borderRadius: BorderRadius.circular(15),
-                        color: Colors.black12),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Image.asset('image/one.png'),
-                          const SizedBox(
-                            width: 10,
-                          ),
-                          Text(
-                            'Wally',
-                            style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w600),
-                          ),
-                          const SizedBox(
-                            width: 210,
-                          ),
-                          Expanded(
-                            child: Icon(
-                              Icons.arrow_forward_ios,
-                              size: 13,
-                              color: Colors.black38,
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => Wallet()));
+                    },
+                    child: Container(
+                      height: 55,
+                      width: 355,
+                      decoration: BoxDecoration(
+                          border: Border.all(color: Colors.transparent),
+                          borderRadius: BorderRadius.circular(15),
+                          color: Colors.black12),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            Image.asset('image/one.png'),
+                            const SizedBox(
+                              width: 10,
                             ),
-                          )
-                        ],
+                            Text(
+                              'Wally',
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w600),
+                            ),
+                            const SizedBox(
+                              width: 210,
+                            ),
+                            Expanded(
+                              child: Icon(
+                                Icons.arrow_forward_ios,
+                                size: 13,
+                                color: Colors.black38,
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                     ),
                   )
